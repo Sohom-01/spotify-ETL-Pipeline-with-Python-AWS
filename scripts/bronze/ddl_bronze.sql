@@ -9,6 +9,8 @@ Script Purpose:
 ===============================================================================
 */
 
+CREATE SCHEMA IF NOT EXISTS bronze;
+
 DO $$
 BEGIN
 	RAISE NOTICE 'DDL_BRONZE';
